@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pricing-container {
+    padding: 40px, 0px;
+    text-align: center;
+}
+
+.pricing-plan {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+
+}
+
+.pricing-plan ul {
+    list-style: none;
+}
+
+.pricing-plan {
+    display: inline-table;
+    justify-content: center;
+    width: 250px;
+    border: 1px solid;
+    background: rgb(32, 218, 91);
+    border-radius: 10px;
+    box-shadow: 0px, 2px, 5px, 10px;
+    margin-top: 10%;
+    max-width: 100%;
+
+
+
+}
+
+.plan-title {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: black
+}
+
+.plan-price {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+
+}
+
+.plan-features {
+    color: black;
+    padding: 8px, 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 2),
+}
+
+.plan-button {
+    width: 50%;
+    margin-top: 10%;
+    background: linear-gradient(to bottom,
+            #3a7bd5, #3a6073);
+    border-radius: 5px;
+
+}
+
+.pricing-plan {
+    transform: scale(1);
+    background: linear-gradient(to bottom,
+            #3a7bd5, #3a6073);
+}
+
+@media(max-width:804px) {
+    .pricing-plan {
+        gap: 50px;
+    }
+}
